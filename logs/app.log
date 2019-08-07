@@ -1,0 +1,70 @@
+Mon, 29 Jul 2019 18:37:12  INFO  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+Mon, 29 Jul 2019 18:38:03  INFO 127.0.0.1 - - [29/Jul/2019 18:38:03] "[37mGET / HTTP/1.1[0m" 200 -
+Mon, 29 Jul 2019 18:38:03  INFO 127.0.0.1 - - [29/Jul/2019 18:38:03] "[37mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+Mon, 29 Jul 2019 18:38:03  INFO 127.0.0.1 - - [29/Jul/2019 18:38:03] "[37mGET /static/css/style2.css HTTP/1.1[0m" 200 -
+Mon, 29 Jul 2019 18:38:03  INFO 127.0.0.1 - - [29/Jul/2019 18:38:03] "[37mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+Mon, 29 Jul 2019 18:38:03  INFO 127.0.0.1 - - [29/Jul/2019 18:38:03] "[37mGET /static/js/jquery-2.2.0.min.js HTTP/1.1[0m" 200 -
+Mon, 29 Jul 2019 18:38:05  INFO 127.0.0.1 - - [29/Jul/2019 18:38:05] "[37mGET /static/pic/logo.ico HTTP/1.1[0m" 200 -
+Mon, 29 Jul 2019 18:44:47  ERROR Exception on /mood [GET]
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\nancy.fu.liu\Desktop\Flask\test_npl\test_npl\dudulu.py", line 94, in mood
+    result["neutral"]), file=SENTENCE_FILE)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 26-30: character maps to <undefined>
+Mon, 29 Jul 2019 18:48:08  INFO  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+Mon, 29 Jul 2019 18:48:13  INFO 127.0.0.1 - - [29/Jul/2019 18:48:13] "[37mGET / HTTP/1.1[0m" 200 -
+Mon, 29 Jul 2019 18:50:34  ERROR Exception on /mood [GET]
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\nancy.fu.liu\Desktop\Flask\test_npl\test_npl\dudulu.py", line 94, in mood
+    result["neutral"]), file=SENTENCE_FILE)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 26-29: character maps to <undefined>
+Mon, 29 Jul 2019 18:51:48  INFO  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+Mon, 29 Jul 2019 18:52:12  INFO  * Restarting with stat
+Mon, 29 Jul 2019 18:52:14  WARNING  * Debugger is active!
+Mon, 29 Jul 2019 18:52:14  INFO  * Debugger PIN: 172-618-088
+Mon, 29 Jul 2019 18:52:14  INFO  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+Wed, 07 Aug 2019 13:37:49  INFO  * Restarting with stat
+Wed, 07 Aug 2019 13:37:51  WARNING  * Debugger is active!
+Wed, 07 Aug 2019 13:37:51  INFO  * Debugger PIN: 172-618-088
+Wed, 07 Aug 2019 13:37:51  INFO  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+Wed, 07 Aug 2019 13:38:25  INFO 127.0.0.1 - - [07/Aug/2019 13:38:25] "[37mGET / HTTP/1.1[0m" 200 -
+Wed, 07 Aug 2019 13:38:25  INFO 127.0.0.1 - - [07/Aug/2019 13:38:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+Wed, 07 Aug 2019 13:38:26  INFO 127.0.0.1 - - [07/Aug/2019 13:38:26] "[36mGET /static/css/style2.css HTTP/1.1[0m" 304 -
+Wed, 07 Aug 2019 13:38:26  INFO 127.0.0.1 - - [07/Aug/2019 13:38:26] "[36mGET /static/js/jquery-2.2.0.min.js HTTP/1.1[0m" 304 -
+Wed, 07 Aug 2019 13:38:26  INFO 127.0.0.1 - - [07/Aug/2019 13:38:26] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+Wed, 07 Aug 2019 13:38:27  INFO 127.0.0.1 - - [07/Aug/2019 13:38:27] "[37mGET /static/pic/logo.ico HTTP/1.1[0m" 200 -
+Wed, 07 Aug 2019 13:38:30  INFO 127.0.0.1 - - [07/Aug/2019 13:38:30] "[37mGET /mood?sentence=123 HTTP/1.1[0m" 200 -
+Wed, 07 Aug 2019 13:41:20  INFO  * Restarting with stat
+Wed, 07 Aug 2019 13:41:22  WARNING  * Debugger is active!
+Wed, 07 Aug 2019 13:41:22  INFO  * Debugger PIN: 172-618-088
+Wed, 07 Aug 2019 13:41:22  INFO  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+Wed, 07 Aug 2019 13:43:02  INFO 127.0.0.1 - - [07/Aug/2019 13:43:02] "[37mGET / HTTP/1.1[0m" 200 -
+Wed, 07 Aug 2019 13:43:58  INFO 127.0.0.1 - - [07/Aug/2019 13:43:58] "[37mGET /mood?sentence=123 HTTP/1.1[0m" 200 -
+Wed, 07 Aug 2019 13:44:17  INFO  * Detected change in 'C:\\Users\\nancy.fu.liu\\Desktop\\Flask\\test_npl\\test_npl\\dudulu.py', reloading
